@@ -3,4 +3,4 @@ also you can check the below link for sample of app which was deployed on heroku
 
 https://predictor-magnumopus.herokuapp.com/
 
-we made a static webpage with good design and catchy attraction towards user attraction that details are also attached in files
+A static webpage is also designed.
