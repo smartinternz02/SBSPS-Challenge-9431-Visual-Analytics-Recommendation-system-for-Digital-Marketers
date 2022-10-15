@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> IPL PREDICTION HOMEPAGE </title>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket IPL cricket analysis and Prediction</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        *{
+         font-family: 'Poppins', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="ipl.png" alt="ipl logo">
+        </div>
+
+        
+
+        <div class="heading">
+            <h1 id="head">
+                IPL Performance & Analysis
+            </h1>
+<br>
+            <p style="font-weight: 500;">
+                Here we are giving the Prediction and analysis of IPL by the previous records, scores,etc..
+                <br>The More Play-- The More Fun
+            </p>
+
+            
+        </div>
+
+        <!-- this is for main image -->
+
+        <div class="image">
+            <img id="myimage" src="rcb-removebg-preview.png" alt="">
+        </div>
+
+
+
+        <!-- now navbar -->
+
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Team</li>
+                <li ref="https://predictor-magnumopus.herokuapp.com">Prediction</li>
+                <li>Rank</li>
+            </ul>
+        </div>
+
+        
+
+        <div class="empty">
+
+        </div>
+
+        
+
+        <div class="list">
+            <ol>
+                <li onclick="myFun('css3.png', 'gold', 'Chennai Super Kings', 'csk3.png')">CSK</li>
+
+                
+
+                <li onclick="myFun('dd1.png', 'blue', 'Delhi Capitals', 'ddlogo.png')">DC</li>
+                <li onclick="myFun('mi.png', 'dodgerblue', 'Mumbai Indians', 'milogo.png')">MI</li>
+                <li onclick="myFun('srh.png', 'orangered', 'Sun Raise Hydrabad', 'srhlogo.png')">SRH</li>
+                <li onclick="myFun('kp.png', 'red', 'King XI Punjab', 'kplogo.png')">KXIP</li>
+                <li onclick="myFun('rr1.png', '#ff3385', 'Rajastan Royals', 'rrlogo.png')">RR</li>
+                <li onclick="myFun('kkr.png', 'purple', 'Kolkata Knight Riders', 'kkrlogo.png')">KKR</li>
+            </ol>
+        </div>
+
+    </div>
+
+
+
+
+
+<script>
+
+    function myFun(image, colour, head, logo){
+        document.getElementById('myimage').src=image;
+        document.querySelector('.empty').style.backgroundColor=colour;
+        document.querySelector('button').style.backgroundColor=colour;
+        document.getElementById('head').innerHTML=head;
+        document.getElementById('logobg').src=logo;
+    }
+
+</script>
+
+</body>
